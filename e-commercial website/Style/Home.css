@@ -1,0 +1,69 @@
+.slideshow {
+    max-width: 1000px;
+    position: relative;
+    margin: auto
+}
+
+.Slide {
+    -webkit-animation-name: Slide;
+    -webkit-animation-duration: 1.5s;
+    animation-name: Slide;
+    animation-duration: 2s
+}
+
+.img1 {
+    vertical-align: middle;
+    width: 100%;
+    height: 100%
+}
+
+.title {
+    text-align: center;
+    color: black;
+}
+
+.firstP { text-align: center; }
+
+@-webkit-keyframes Slide {
+    from { opacity: .1555 }
+
+    to { opacity: 1 }
+}
+
+@keyframes Slide {
+    from { opacity: .4 }
+
+    to { opacity: 1 }
+}
+
+.mt-50 {
+    margin-top: 50px;
+    margin-bottom: 50px
+}
+
+.card {
+    position: relative;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 1px solid rgba(0, 0, 0, .125);
+    border-radius: .1875rem
+}
+
+.card-body {
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    padding: 1.25rem;
+    text-align: center
+}
+
+.card-img-actions { position: relative }
+
+.card-img { width: 350px }
+
+.star { color: red }
