@@ -21,7 +21,9 @@ if (mysqli_connect_error() != null) {
         if (!empty($username) && !empty($email) && !empty($phone) && !empty($password) && !empty($confirmPassword) && $confirmPassword == $password) {
             $sql = "INSERT INTO `userinfo` (`username`, `password`, `email`, `phone`, `gender`) 
             VALUES ('$username','$password','$email','$phone','$gender')";
-            header('Login.php');
+            $result = $connect->query($sql);
+            //print($result);
+            header('location: Login.php');
         }
         else{
             echo "It's empty";

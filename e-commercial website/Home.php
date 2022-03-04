@@ -66,7 +66,6 @@ if (mysqli_connect_error() != null) {
         <label class="logo">MobileShop</label>
 
         <ul>
-            <li><a href="#"><i class="fa fa-cart-plus mr-2"></i> Add to cart</a></li>
             <li><a href="./Logout.php"><i class="fa-solid fa-arrow-right-from-bracket"></i> Logout</a></li>
         </ul>
     </nav>
