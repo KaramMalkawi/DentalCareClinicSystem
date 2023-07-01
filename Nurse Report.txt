@@ -1,0 +1,16 @@
+Nurse Report:
+Name: karam
+Address: irbid
+National Number: 1
+Phone Number: 0797785478
+Appointment Time: 10.00
+Treatment Description: kjsad
+Medicine: [Medicine name: kajsd
+Medicine dose: 10]
+Name: 
+Address: kjs
+National Number: 2
+Phone Number: 044495
+Appointment Time: 10.30
+Treatment Description:  
+Medicine: []
